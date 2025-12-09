@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "donut-auto-auction",
+  "version": "${version}",
+  "name": "Donut Auto-Auction",
+  "description": "Fabric mod for DonutSMP that enables automatic auctioning via Ctrl+Alt+LMB keybind.",
+  "authors": ["YourName"],
+  "contact": {
+    "homepage": "https://github.com/Papi99972/donut-auto-auction",
+    "sources": "https://github.com/Papi99972/donut-auto-auction"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.donutsmp.mod.DonutAutoAuctionMod"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
